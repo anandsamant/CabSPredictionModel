@@ -8,7 +8,14 @@ It is machine learning model file (Uses Linear Regression)
 # app.py
 It uses flask and pickle modules to connect Index.html to MLR.py
 
-For starting the file. Use python app.py in terminal in that folder.
+# Model Limitation : According to taxi.csv
+It asks four things from user and predict number of weekly rides to driver.
+1. PricePerWeek : ranges from (( 10 to 110 ))
+2. Population : ranges from (( 1500000  to 1850000 ))
+3. Monthlyincome : ranges from (( 5500 to 17000 ))
+4. Averageparkingpermonth : ranges from (( 50 to 200 ))
+
+For starting the file:-  Use (( python app.py ))  in terminal in that folder.
 
 Requirements :
 Python , Flask , Numpy , Scipy , Scikit-learn , Pandas.
